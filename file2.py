@@ -1,0 +1,12 @@
+print("hello world")
+print("line 2")
+print("line 3")
+print("line 4")
+print("Line 5")
+print("line 6")
+print("line 7")
+print("Hey")
+print("No")
+print("Yes")
+print("Yay!!!")
+
