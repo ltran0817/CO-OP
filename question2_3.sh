@@ -1,10 +1,10 @@
-for f in *.py
+for f1 in *.py
 do
-c = `cat $f | wc -l`
+c=`cat $f1|wc -l`
 if test $c -ge 10
 then
-mv "$f" "long_${f}"
+mv "$f1" "long_${f1}"
 else
-mv "$f" "short_${f}"
+mv "$f1" "short_${f1}"
 fi
 done
